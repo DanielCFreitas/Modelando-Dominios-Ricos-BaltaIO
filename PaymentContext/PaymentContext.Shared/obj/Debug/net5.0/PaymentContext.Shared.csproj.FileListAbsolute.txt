@@ -1,0 +1,12 @@
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\bin\Debug\net5.0\PaymentContext.Shared.deps.json
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\bin\Debug\net5.0\PaymentContext.Shared.dll
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\bin\Debug\net5.0\ref\PaymentContext.Shared.dll
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\bin\Debug\net5.0\PaymentContext.Shared.pdb
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.csproj.AssemblyReference.cache
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.AssemblyInfoInputs.cache
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.AssemblyInfo.cs
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.csproj.CoreCompileInputs.cache
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.dll
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\ref\PaymentContext.Shared.dll
+D:\Cursos Video Aula\C#\7-BaltaIO\Modelando-Dominios-Ricos-BaltaIO\PaymentContext\PaymentContext.Shared\obj\Debug\net5.0\PaymentContext.Shared.pdb
