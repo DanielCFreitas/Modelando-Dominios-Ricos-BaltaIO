@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PaymentContext.Domain.Entities;
+using PaymentContext.Domain.ValueObjects;
 
 namespace PaymentContext.Tests.Entities
 {
@@ -9,10 +9,11 @@ namespace PaymentContext.Tests.Entities
         [TestMethod]
         public void AdicionarAssinatura()
         {
-            // var subscription = new Subscription(null);
-            // var student = new Student("Daniel", "Corrêa", "123456789", "daniel@gmail.com");
+            var name = new Name("Teste", "Teste");
+            foreach (var notification in name.Notifications)
+            {
 
-            // student.AddSubscription(subscription);
+            }
         }
     }
 }
