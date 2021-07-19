@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using PaymentContext.Domain.Contracts;
 using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
 
@@ -16,7 +17,7 @@ namespace PaymentContext.Domain.Entities
             Email = email;
             _subscription = new List<Subscription>();
 
-            AddNotifications(name, document, email);
+            AddNotifications(name, document, email, new CreateStudentContract(this));
         }
 
         public Name Name { get; private set; }
@@ -27,10 +28,7 @@ namespace PaymentContext.Domain.Entities
 
         public void AddSubscription(Subscription subscription)
         {
-            foreach (var sub in Subscriptions)
-                sub.Inactivate();
-
-            _subscription.Add(subscription);
+            AddNotifications(new AddSubscriptionToStudentContract(this));
         }
     }
 }
