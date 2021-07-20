@@ -28,7 +28,9 @@ namespace PaymentContext.Domain.Entities
 
         public void AddSubscription(Subscription subscription)
         {
-            AddNotifications(new AddSubscriptionToStudentContract(this));
+            AddNotifications(new AddSubscriptionToStudentContract(this, subscription));
+
+            _subscription.Add(subscription);
         }
     }
 }
