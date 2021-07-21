@@ -58,7 +58,7 @@ namespace PaymentContext.Application.Handlers
 
             AddNotifications(name, document, email, address, student, subscription, payment);
 
-            if (this.IsValid)
+            if (!this.IsValid)
                 return new CommandResult(false, "Não foi possivel realizar seu cadastro");
 
             _studentRepository.CreateSubscription(student);
