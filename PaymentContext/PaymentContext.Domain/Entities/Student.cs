@@ -6,7 +6,7 @@ using PaymentContext.Shared.Entities;
 
 namespace PaymentContext.Domain.Entities
 {
-    public class Student : Entity
+    public class Student : Entity, IAggregateRoot
     {
         private IList<Subscription> _subscription;
 
