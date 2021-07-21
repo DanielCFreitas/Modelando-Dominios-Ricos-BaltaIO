@@ -14,7 +14,7 @@ namespace PaymentContext.Application.Contracts
                 .IsLowerThan(command.LastName, 40, "Command.LastName", "Sobrenome deve ter no máximo 40 caracteres")
                 .IsLowerOrEqualsThan(0, command.Total, "Command.Total", "O total não pode ser zero")
                 .IsGreaterOrEqualsThan(command.Total, command.TotalPaid, "Command.TotalPaid", "O valor pago é menor que o valor total")
-                .IsNullOrEmpty(command.City, "Command.City", "A Cidade deve ser informada");
+                .IsNotNullOrEmpty(command.City, "Command.City", "A Cidade deve ser informada");
         }
     }
 }

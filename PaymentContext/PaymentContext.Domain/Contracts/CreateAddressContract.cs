@@ -8,7 +8,7 @@ namespace PaymentContext.Domain.Contracts
         public CreateAddressContract(Address address)
         {
             Requires()
-                .IsNullOrEmpty(address.City, "Address.City", "A Cidade deve ser informada");
+                .IsNotNullOrEmpty(address.City, "Address.City", "A Cidade deve ser informada");
         }
     }
 }
